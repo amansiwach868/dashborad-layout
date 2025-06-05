@@ -100,7 +100,7 @@ tl.from("#user", {
     x: 200,
     opacity: 0
 });
-tl.from("#userLinks", {
+tl.from(".userLinks", {
     duration: 0.3,
     x: 200,
     stagger: 0.1,
@@ -111,7 +111,7 @@ if (window.innerWidth >= 768) {
         duration: 0.3,
         x: -500,
     });
-    tl2.from("#navTabItem", {
+    tl2.from(".navTabItem", {
         duration: 0.3,
         x: -500,
         stagger: 0.1,
@@ -131,11 +131,11 @@ if (window.innerWidth >= 768) {
         stagger: 0.2
     });
     const tl4 = gsap.timeline()
-    tl4.from("#main-content", {
+    tl4.from(".main-content", {
         opacity:0,
         scale:0
     });
-    tl4.from("#main-content div", {
+    tl4.from(".main-content div", {
         opacity:0,
         scale: 0,
         stagger:.1
