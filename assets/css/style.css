@@ -1,0 +1,49 @@
+.slider-nav .slick-current img {
+    border: 1px solid #62C9CC;
+
+}
+
+.slick-list {
+    overflow: hidden;
+}
+
+.slick-dots {
+    display: flex;
+    justify-content: center;
+    gap: 4px;
+    margin-top: 18px;
+}
+
+.slick-dots .slick-active {
+    background: #62C9CC;
+}
+
+.slick-dots li {
+    height: 6px;
+    width: 20px;
+    overflow: hidden;
+    border-radius: 36px;
+    background: white;
+}
+
+.activeNavBar {
+    transform-origin: left;
+    transform: rotate(-40deg);
+}
+
+.activeNavBar3 {
+    margin-left: -30px;
+    opacity: 0;
+    pointer-events: none;
+}
+
+.activeNavBar2 {
+    transform-origin: left;
+    transform: rotate(40deg);
+}
+
+.showSearchBar {
+    box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+    opacity: 1;
+    top: 5px;
+}
