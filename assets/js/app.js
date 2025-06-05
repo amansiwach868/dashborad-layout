@@ -121,11 +121,11 @@ if (window.innerWidth >= 768) {
         duration: 0.5,
         x: 500,
     });
-    tl3.from("#rightBaritems", {
+    tl3.from(".rightBaritems", {
         duration: 0.5,
         x: 500,
     });
-    tl3.from("#rightBaritems .slick-dots li", {
+    tl3.from(".rightBaritems .slick-dots li", {
         duration: 0.5,
         x: 500,
         stagger: 0.2
@@ -139,11 +139,6 @@ if (window.innerWidth >= 768) {
         opacity:0,
         scale: 0,
         stagger:.1
-    });
-    tl4.from("button", {
-        duration: 0.5,
-        x: 500,
-        stagger: 0.1
     });
 }
 const tl5 = gsap.timeline()
