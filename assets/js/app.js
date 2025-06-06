@@ -152,7 +152,7 @@ tl5.from("footer h5", {
     stagger: .1
 });
 tl5.from("footer div svg", {
-    x: 500,
+    x: 700,
     duration: 1,
     stagger: .1,
     rotate: 900
